@@ -16,8 +16,8 @@
     </div>
     <div class = "nav_button_section">
 
-        <div id = "home_button"><a href="/milestone/Homepage">Popular</a></div>
-        <div id = "home_button"><a href="/milestone/Homepage/history_pg">History</a></div>
+        <div id = "home_button"><a href="<?=base_url()?>Homepage">Popular</a></div>
+        <div id = "home_button"><a href="<?=base_url()?>Homepage/history_pg">History</a></div>
     </div>
 
     <div class = "search">
@@ -62,7 +62,7 @@
     <div class="nav_icons">
         <div class="login">
             
-            <a href="/milestone/Homepage/login_window">
+            <a href="<?=base_url()?>Homepage/login_window">
             <img src="<?=base_url().'images/login.png'?>" class = "login_pic"alt = "login_image" >
             </a>
             <!-- present the current login in status -->
@@ -71,7 +71,7 @@
         <!-- button for posting videos and images-->
 
         <div class="manage_dropdown">
-            <a href="/milestone/Video">
+            <a href="<?=base_url()?>Video">
                 <img src="<?=base_url().'images/upload.png'?>" class = "post_pic"alt = "post_image">
             </a>
             <div class="post_name">Post</div>
@@ -88,8 +88,8 @@
                 <div class="manage_name">Manage</div>
             
                 <div class="dropdown_content">
-                    <a href="/milestone/Profile_interface">Profile</a>
-                    <a href="/milestone/Account/logout">Logout</a>
+                    <a href="<?=base_url()?>Profile_interface">Profile</a>
+                    <a href="<?=base_url()?>Account/logout">Logout</a>
 
                 </div>
 

@@ -9,7 +9,7 @@
     $all_viewed_post = $this->Upload_model->preview_history($history_postid,$viewed_amount);
     for($i=$viewed_amount-2;$i>-1;$i--){
         $preview = '
-                    <a href="/milestone/Play_video/index?data='.$all_viewed_post[$i]['title'].'&id='.$all_viewed_post[$i]['postid'].'&intro='.$all_viewed_post[$i]['description'].'&up='.$all_viewed_post[$i]['uploader'].'&ty='.$all_viewed_post[$i]['type'].'">
+                    <a href="'.base_url().'/Play_video/index?data='.$all_viewed_post[$i]['title'].'&id='.$all_viewed_post[$i]['postid'].'&intro='.$all_viewed_post[$i]['description'].'&up='.$all_viewed_post[$i]['uploader'].'&ty='.$all_viewed_post[$i]['type'].'">
                     <div class="preview_section">
                         <img src="../uploads/images/'.$all_viewed_post[$i]['cover'].'" class = "preview_pic">
                         </a>

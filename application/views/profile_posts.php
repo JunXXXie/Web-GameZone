@@ -39,7 +39,7 @@
 
             
             <button class="delete">
-                <a href="/milestone/Profile_interface/delete_post?id=<?php echo $id;?>&cover=<?php echo $de_cover; ?>">
+                <a href="<?=base_url()?>Profile_interface/delete_post?id=<?php echo $id;?>&cover=<?php echo $de_cover; ?>">
                     Delete
                 </a>
             </button>

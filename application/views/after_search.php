@@ -29,7 +29,7 @@
     <?php        
             //save current url
             $preview = '
-                    <a href="/milestone/Play_video/index?data='.$title.'&id='.$postid.'&intro='.$description.'&up='.$uploader.'&ty='.$type.'">
+                    <a href="'.base_url().'Play_video/index?data='.$title.'&id='.$postid.'&intro='.$description.'&up='.$uploader.'&ty='.$type.'">
                     <div class="preview_section">
                         <img src="'.base_url().'uploads/images/'.$cover.'" class = "preview_pic">
                         </a>

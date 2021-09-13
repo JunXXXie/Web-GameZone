@@ -48,10 +48,10 @@
         
         <!--Sign up function-->
         <button class="signup_button">
-            <a href="/milestone/Homepage/signup_window">Sign up</a>
+            <a href="<?=base_url()?>Homepage/signup_window">Sign up</a>
         </button>
         <!-- Forgot password-->
-        <a class = "forgot" href="/milestone/Homepage/forgot_pw">Forgot password</a>
+        <a class = "forgot" href="<?=base_url()?>Homepage/forgot_pw">Forgot password</a>
 
     </div>
 </div>
