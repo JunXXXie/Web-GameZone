@@ -1,3 +1,7 @@
+<div align = "center">
+    <img width = "100" src="assets/watermark.jpg"/>
+</div>
+
 ###################
 About GameZone
 ###################
