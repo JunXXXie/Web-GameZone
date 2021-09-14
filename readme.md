@@ -1,6 +1,6 @@
 
 <p>
-    <img width = "200" img src="assets/watermark.jpg"/>
+    <img width = "150" img src="assets/watermark.jpg"/>
 </p>
 
 ###################
