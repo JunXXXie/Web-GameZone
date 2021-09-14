@@ -13,6 +13,12 @@ GameZone is programmed using PHP with Codeigniter framework and follows the MVC 
 Functions in GameZone include account sign up, log in, logout, password encryption, password reset, email verification, viewed history, searching, commenting, giving likes, multiple files upload, post management and video recommendation.
 </p>
 
+# Preview
+<div>
+<img width = 49% img src="assets/main page.png"/>
+<img width = 49% img src="assets/video page.png"/>
+</div>
+
 
 # Development
 GameZone is an individual project that starts from a proposal, followed by design, structuring, functioning, styling, testing, debugging and maintaining.
@@ -31,4 +37,16 @@ GameZone is an individual project that starts from a proposal, followed by desig
 </div>
 
 ### -Database Structure
+##### 1. users table
+<img img src="assets/userstable.jpg"/>
 
+##### 1. posts table
+<img img src="assets/poststable.jpg"/>
+
+##### 1. comments table
+<img img src="assets/commentstable.jpg"/>
+
+	
+	
+	
+	
