@@ -1,6 +1,6 @@
 
-<p align = "center">
-    <img width = "100" img src="assets/watermark.jpg"/>
+<p>
+    <img width = "200" img src="assets/watermark.jpg"/>
 </p>
 
 ###################
