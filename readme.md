@@ -14,10 +14,27 @@ Functions in GameZone include account sign up, log in, logout, password encrypti
 </p>
 
 # Preview
-<div>
-<img width = 49% img src="assets/main page.png"/>
-<img width = 49% img src="assets/video page.png"/>
-</div>
+### Main Page
+<img width = 100% img src="assets/mainpage.jpg"/>
+
+### Video Page
+<img width = 100% img src="assets/videopage.jpg"/>
+
+### Account
+
+<img width = 70% img src="assets/loginpage.jpg"/>
+<img width = 100% img src="assets/signuppage.jpg"/>
+
+### Profile Page
+<img width = 100% img src="assets/profilepage.jpg"/>
+
+### Posting
+<img width = 100% img src="assets/postpage.jpg"/>
+
+### Recommend videos
+<img width = 100% img src="assets/recommend.jpg"/>
+
+
 
 
 # Development
@@ -46,7 +63,17 @@ GameZone is an individual project that starts from a proposal, followed by desig
 ##### 1. comments table
 <img img src="assets/commentstable.jpg"/>
 
-	
+## Learnings and Challenges
+
+#### 1. This project is the first time I have used PHP and used a database for an MVC website. For the practising purpose, most of the functions are my design using my code. 
+#### 2. Code for a LogIn system is time-consuming. Because it is the first time I have tried to build a LogIn system, and it has a strong requirement on logical thinking. From the LogIn function, I have a deeper understanding of the LogIn process, how encryption work, transferring data between view and Model, proper use of session and cookies, etc.
+#### 3. Experience of structuring, a good structure could simplify the project. One example is that some elements will use multiple times. And a good structure can prevent repetitive work and, therefore, make your code clean and lower cost.
+#### 4. The recommend function is a very good experience. The function considers video type, total viewed amount and the view history, then it calculates user's preferences and makes it in percentage. The percentage will decide the amount of recommended videos for each type.
+#### 5. The use of PHP, MVC structure, database on a website.
+
+# What's next
+#### After finishing the development, the next step is to deploy the website onto Google Cloud Platform using Linux (Ubuntu) and Docker.
+
 	
 	
 	
