@@ -10,65 +10,25 @@ GameZone is a website where users can share gaming videos with others. Users can
 	
 GameZone is programmed using PHP with Codeigniter framework and follows the MVC structure. The interface is styling using CSS and JavaScript. Data and files are managed using MySQL on phpMyAdmin.<br>
 	
-Functions in GameZone include account sign up, log in, logout, password encryption, password reset, viewed history, searching, commenting, giving likes, multiple files upload, post management and video recommendation.
+Functions in GameZone include account sign up, log in, logout, password encryption, password reset, email verification, viewed history, searching, commenting, giving likes, multiple files upload, post management and video recommendation.
 </p>
 
 
-*******************
-Release Information
-*******************
+# Development
+GameZone is an individual project that starts from a proposal, followed by design, structuring, functioning, styling, testing, debugging and maintaining.
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+### -Wireframe
+<div>
+<img width = 49% img src="assets/watermark.jpg"/>
+<img width = 49% img src="assets/watermark.jpg"/>
+</div>
 
-**************************
-Changelog and New Features
-**************************
+### -MVC Structure
+<div>
+<img width = 33% img src="assets/watermark.jpg"/>
+<img width = 33% img src="assets/watermark.jpg"/>
+<img width = 33% img src="assets/watermark.jpg"/>
+</div>
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+### -Database Structure
 
-*******************
-Server Requirements
-*******************
-
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
