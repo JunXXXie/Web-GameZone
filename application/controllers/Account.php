@@ -123,8 +123,8 @@ class Account extends CI_Controller{
                             $config['charset'] = 'iso-8859-1';
                             $config['smtp_host'] = 'ssl://smtp.gmail.com';
                             $config['smtp_port'] = '465';
-                            $config['smtp_user'] = 'jiedxie@gmail.com';
-                            $config['smtp_pass'] = 'xieironexia';
+                            $config['smtp_user'] = '';
+                            $config['smtp_pass'] = '';
 
                             
                             //randome 6-digits verification code
@@ -132,7 +132,7 @@ class Account extends CI_Controller{
                             $this->session->set_userdata('ver_code',$ver_code);
                             $this->email->initialize($config);
                             $this->email->set_newline("\r\n"); 
-                            $this->email->from('jiedxie@gmail.com', 'INFS7202 Project');
+                            $this->email->from('xxxxxx@email.com', 'Web Project');
                             $this->email->to($email);
                             $this->email->subject("The test of CodeIgniter's sending mail");
                             $this->email->message('This is a test email of the video project. Your 6-digits verification code for account setup is: '.$ver_code);
@@ -206,8 +206,8 @@ class Account extends CI_Controller{
             $config['charset'] = 'iso-8859-1';
             $config['smtp_host'] = 'ssl://smtp.gmail.com';
             $config['smtp_port'] = '465';
-            $config['smtp_user'] = 'jiedxie@gmail.com';
-            $config['smtp_pass'] = 'xieironexia';
+            $config['smtp_user'] = 'xxxxxx@email.com';
+            $config['smtp_pass'] = '';
 
             
             //randome 6-digits verification code
@@ -215,7 +215,7 @@ class Account extends CI_Controller{
             $this->session->set_userdata('ver_code_pw',$ver_code);
             $this->email->initialize($config);
             $this->email->set_newline("\r\n"); 
-            $this->email->from('jiedxie@gmail.com', 'INFS7202 Project');
+            $this->email->from('xxxxx@email.com', 'Web Project');
             $this->email->to($email);
             $this->email->subject("The test of CodeIgniter's sending mail");
             $this->email->message('This is a test email of the video project. Your 6-digits verification code for password reset is: '.$ver_code);
