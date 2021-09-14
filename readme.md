@@ -3,9 +3,8 @@
     <img width = "150" img src="assets/watermark.jpg"/>
 </p>
 
-###################
-About GameZone
-###################
+# About GameZone
+
 
 GameZone is a website where users can share gaming videos with others. Users can upload videos on GameZone with their account and interact or communicate with other uses through comments or give likes. 
 GameZone is programmed using PHP with Codeigniter framework, and data and files are managed using MySQL on phpMyAdmin.
