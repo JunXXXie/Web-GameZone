@@ -19,15 +19,15 @@ GameZone is an individual project that starts from a proposal, followed by desig
 
 ### -Wireframe
 <div>
-<img width = 49% img src="assets/watermark.jpg"/>
-<img width = 49% img src="assets/watermark.jpg"/>
+<img width = 49% img src="assets/main page.png"/>
+<img width = 49% img src="assets/video page.png"/>
 </div>
 
 ### -MVC Structure
 <div>
-<img width = 33% img src="assets/watermark.jpg"/>
-<img width = 33% img src="assets/watermark.jpg"/>
-<img width = 33% img src="assets/watermark.jpg"/>
+<img align="top" width = 33% img src="assets/models.jpg"/>
+<img width = 33% img src="assets/views.jpg"/>
+<img align="top" width = 33% img src="assets/controllers.jpg"/>
 </div>
 
 ### -Database Structure
