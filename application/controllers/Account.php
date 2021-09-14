@@ -123,7 +123,7 @@ class Account extends CI_Controller{
                             $config['charset'] = 'iso-8859-1';
                             $config['smtp_host'] = 'ssl://smtp.gmail.com';
                             $config['smtp_port'] = '465';
-                            $config['smtp_user'] = '';
+                            $config['smtp_user'] = 'xxxxx@email.com';
                             $config['smtp_pass'] = '';
 
                             
